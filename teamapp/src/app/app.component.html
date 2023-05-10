@@ -1,0 +1,19 @@
+<div class="app">
+  <h1>Team Generator</h1>
+  <div class="container">
+    <ol class="list">
+      <li *ngFor="let member of members">{{member}}</li>
+    </ol>
+    <div class="form-control adding-members">
+      <input #addMemberInput type="text" placeholder="Name" (input) = "onInputMember(addMemberInput.value)" [value]="newMember">
+      <button (click)="addNewMember()">Add</button>
+    </div>
+    <div class="error" *ngIf="noMemberName">You need to enter a name!</div>
+    <div class="form-control adding-teams">
+      <input #addNumTeamsInput type="text" placeholder="Num of teams" (input)="onInputNumTeams(addNumTeamsInput.value)">
+      <button (click)="generateTeams()">Generate</button>
+    </div>
+    <div class="error" *ngIf="notEnoughMembers">{{errMessage}}</div>
+  </div>
+  <app-team [teams]="teams"></app-team>
+</div>

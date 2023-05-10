@@ -1,0 +1,25 @@
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.teams-list {
+    border: 1px solid #4868e6;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+ul.list {
+    list-style: none;
+}
+h3 {
+    color: rgb(31, 201, 122);
+    margin-bottom: 10px;
+}
+.teams ol {
+    border-bottom: 1px solid #4868e6;
+    font-size: 14px;
+}
+ul ol li {
+    padding-left: 20px;
+}
