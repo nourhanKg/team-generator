@@ -3,6 +3,12 @@ team-generator is a web application built with angular.
 
 <h1>⚡ Demo</h1>
 
+
+
+
+https://github.com/nourhanKg/team-generator/assets/36276898/a02bac05-9ecc-4981-a7a2-6bf451acf004
+
+
 ## Getting Started
 
 To get started with project, follow these steps:
