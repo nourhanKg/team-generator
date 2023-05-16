@@ -15,7 +15,7 @@ npm install
 ```
 3- Run the project:
 ```bash
-ng server
+ng serve
 ```
 ## Features
 
